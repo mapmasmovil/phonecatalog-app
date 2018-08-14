@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Phones redux fetchPhones 1`] = `
+Object {
+  "loading": false,
+  "phones": Array [
+    Object {
+      "id": 0,
+      "title": "iphone 5s",
+    },
+  ],
+}
+`;
