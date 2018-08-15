@@ -27,7 +27,7 @@ class PhoneList extends Component {
     }
   }
 
-  componentDidMount() {
+  componentWillMount() {
     this.props.fetchPhones()
   }
 
