@@ -42,10 +42,18 @@ export default class PhoneDetail extends Component {
         </View>
 
         <View style={styles.propertiesBody}>
-          <Text style={styles.properties}><Text style={styles.bold}>CPU:</Text> {phone.cpu}</Text>
-          <Text style={styles.properties}><Text style={styles.bold}>Storage options:</Text> {phone.storage.join(', ')}</Text>
-          <Text style={styles.properties}><Text style={styles.bold}>Colors:</Text> {phone.colors.join(', ')}</Text>
-          <Text style={styles.properties}><Text style={styles.bold}>Battery:</Text> {phone.battery}</Text>
+          <Text style={styles.properties}>
+            <Text style={styles.bold}>CPU:</Text> {phone.cpu}
+          </Text>
+          <Text style={styles.properties}>
+            <Text style={styles.bold}>Storage options:</Text> {phone.storage.join(', ')}
+          </Text>
+          <Text style={styles.properties}>
+            <Text style={styles.bold}>Colors:</Text> {phone.colors.join(', ')}
+          </Text>
+          <Text style={styles.properties}>
+            <Text style={styles.bold}>Battery:</Text> {phone.battery}
+          </Text>
         </View>
       </View>
     );
